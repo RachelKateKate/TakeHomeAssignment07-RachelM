@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "117326409712",
+    "firebase_url": "https://addtofirebase-1fef9.firebaseio.com",
+    "project_id": "addtofirebase-1fef9",
+    "storage_bucket": "addtofirebase-1fef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117326409712:android:580348ea4de01c38",
+        "android_client_info": {
+          "package_name": "rachelmiller.class09"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117326409712-j2j4t8t3m2hv0djabb2mn2frnro2h7d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjK9i62JosaNlqk-HRSvWtPxM5HsCmHi0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
