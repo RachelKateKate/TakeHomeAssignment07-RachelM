@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private DatabaseReference personRef = database.getReference("person");
+    private DatabaseReference peopleRef = database.getReference("people");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,12 @@ public class MainActivity extends AppCompatActivity {
     public void set(View view) {
         personRef.setValue(new Person("Xi", 100, true));
     }
+
+
+    public void add(View view) {
+        peopleRef.push().setValue(new Person("Wei", 20, true));
     }
+}
 
 
 

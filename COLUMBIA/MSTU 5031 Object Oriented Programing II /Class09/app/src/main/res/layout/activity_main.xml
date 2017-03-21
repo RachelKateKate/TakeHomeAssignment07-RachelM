@@ -11,4 +11,10 @@
         android:onClick="set"
         android:text="Set" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add"
+        android:text="Add" />
+    
 </RelativeLayout>
